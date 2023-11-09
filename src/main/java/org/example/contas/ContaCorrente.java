@@ -1,6 +1,6 @@
 package org.example.contas;
 
-import org.example.tarifas.ITarifa;
+import org.example.interfaces.ITarifa;
 
 public class ContaCorrente extends Conta implements ITarifa {
     private double valorTarifa;

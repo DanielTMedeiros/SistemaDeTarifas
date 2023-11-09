@@ -2,7 +2,7 @@ package org.example.contas;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.example.tarifas.ITarifa;
+import org.example.interfaces.ITarifa;
 
 @Getter@ Setter
 public class ContaInternacional extends Conta implements ITarifa {
