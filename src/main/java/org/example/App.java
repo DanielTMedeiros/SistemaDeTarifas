@@ -3,7 +3,7 @@ package org.example;
 import org.example.contas.ContaCorrente;
 import org.example.contas.ContaCripto;
 import org.example.contas.ContaInternacional;
-import org.example.tarifas.GerenciadorDeTarifa;
+import org.example.gerenciador.GerenciadorDeTarifa;
 
 import java.util.Scanner;
 

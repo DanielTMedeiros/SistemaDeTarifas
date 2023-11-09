@@ -1,4 +1,4 @@
-package org.example.tarifas;
+package org.example.interfaces;
 
 public interface ITarifa {
     double calcula();

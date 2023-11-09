@@ -1,4 +1,4 @@
-package org.example.tarifas;
+package org.example.gerenciador;
 
 import lombok.Getter;
 import lombok.Setter;
