@@ -9,6 +9,7 @@ import org.example.contas.ContaInternacional;
 @Getter @Setter
 public class GerenciadorDeTarifa {
     private double saldoTotal;
+
     private double tarifaTotal;
     public void acumula(Conta conta){
         double saldo = conta.saldo;
