@@ -1,0 +1,10 @@
+17:42:08.496 742  [main] %PARSER_ERROR[Level] org.example.TestesComLog - Incializando o método
+17:42:08.497 743  [main] %PARSER_ERROR[Level] org.example.TestesComLog - valor esperado: 120 | valorTarifa: 120
+17:42:30.663 223  [main] %PARSER_ERROR[Level] org.example.TestesComLog - Incializando o método
+17:42:30.664 224  [main] %PARSER_ERROR[Level] org.example.TestesComLog - valor esperado: 120 | valorTarifa: 120
+17:42:52.604 6177 [main] %PARSER_ERROR[Level] org.example.TestesComLog - Incializando o método
+17:42:56.116 9689 [main] %PARSER_ERROR[Level] org.example.TestesComLog - valor esperado: 120 | valorTarifa: 120
+17:43:56.146 225  [main] %PARSER_ERROR[Level] org.example.TestesComLog - Incializando o método
+17:43:56.147 226  [main] %PARSER_ERROR[Level] org.example.TestesComLog - valor esperado: 120 | valorTarifa: 120
+17:46:14.400 220  [main] %PARSER_ERROR[Level] org.example.TestesComLog - Incializando o método
+17:46:14.400 220  [main] %PARSER_ERROR[Level] org.example.TestesComLog - valor esperado: 120 | valorTarifa: 120
