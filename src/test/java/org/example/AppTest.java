@@ -1,38 +1,20 @@
 package org.example;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-    extends TestCase
+import static org.junit.jupiter.api.Assertions.*;
+public class AppTest
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+    double saldo = 1000;
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
+    @Test
+    @DisplayName("Calcula valores de saldo e tarifa de uma CI")
+    public void calculaContaInternacional(){
+        double saldoInternacional = saldo * 4.8;
+        double valorTarifa = Math.round(saldoInternacional * 0.025);
+        saldoInternacional -= valorTarifa;
+        assertEquals(120, valorTarifa);
+        assertEquals(4680, saldoInternacional);
     }
 }
